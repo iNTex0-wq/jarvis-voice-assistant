@@ -1,0 +1,11 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+# anthropic>=0.40.0   # uncomment if/when you switch LLM_BACKEND to "claude"
+
+# --- Voice pipeline ---
+sounddevice>=0.4.6
+numpy>=1.24.0
+openwakeword>=0.6.0
+onnxruntime>=1.16.0
+faster-whisper>=1.0.0
+piper-tts>=1.2.0

@@ -1,0 +1,20 @@
+# Secrets — never commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+
+# Voice models — large binaries, download separately per README
+voices/*.onnx
+voices/*.onnx.json
+
+# Runtime-generated content
+generated_code/
+
+# OS junk
+.DS_Store
+Thumbs.db
