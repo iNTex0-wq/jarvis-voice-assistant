@@ -18,9 +18,7 @@ config.py                    <- all settings, from .env
 ```
 
 **The whole point of this structure:** `orchestrator.py` never imports
-Ollama directly — it only calls `get_llm()`. Swapping brains
-later is a one-line change in `.env` (`LLM_BACKEND=claude`), nothing else
-in the code changes.
+Ollama directly — it only calls `get_llm()`
 
 ## Setup
 
